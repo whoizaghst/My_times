@@ -1,0 +1,30 @@
+.header{
+ font-family: Verdana;
+ font-size: 14px;
+ font-weight: bold;
+ border-bottom: 1px solid black;
+ background-color: red;
+ width: 100%;
+ height: 80px;
+ position: fixed;
+ top: 0;
+ bottom: 0;
+ z-index: 100;
+ align-items: center;
+}
+/*
+.logo{
+  background-color: orange;
+
+}
+.header-right a{
+  border: solid;
+  border-color: black;
+  justify-content: flex-end;
+
+}
+.header-right{
+  flex: 1 1 0;
+}
+
+*/
