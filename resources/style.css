@@ -7,6 +7,7 @@
  justify-content: space-between;
  align-content: space-around;
  display: flex;
+ width: 100%;
 }
 .logo{
   display: flex;
@@ -14,12 +15,38 @@
   align-items: center;
   width: 170px;
   color: MediumAquamarine;
-  font-size: 14px;
 }
 .header-right{
   display: flex; /*this allows for me to be able to  use flex box basically*/
   justify-content: flex-end; /*this line pushed the menu to the right */
-  align-items: center; /*this centered the item in the colomn of  the container*/
+  align-items: center; /*this centered the item in the colomn (vertically) of  the container*/
   justify-content:space-around;/*this is putting space around the menu*/
-  width: 300px; /* this is impotant as it gives the element for the menu in this case the width with in the container*/
+  width: 250px; /* this is impotant as it gives the element for the menu in this case the width with in the container */
+}
+.columnbig {
+  border: 7px solid pink;
+}
+.group1{
+  border: 5px solid cyan;
+}
+.mother{
+  border: 3px solid lightblue;
+}
+.p1{
+  border: 3px solid blue;
+}
+.group2{
+  border: 5px solid DarkViolet;
+}
+.p2{
+  border: 3px solid red;
+}
+.earth{
+  border: 3px solid green;
+}
+.p3{
+  border: 3px solid orange;
+}
+.research{
+  border: 3px solid yellow;
 }
