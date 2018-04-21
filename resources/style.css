@@ -1,36 +1,74 @@
+
+/* HEADER */
+
 .header{
  font-family: Verdana;
  font-size: 14px;
  font-weight: bold;
- border-bottom: 1px solid black;
+ border-bottom: 7px solid black;
  background-color: white;
  justify-content: space-between;
  align-content: space-around;
  display: flex;
  width: 100%;
 }
+
+/* LOGO */
 .logo{
+  border: 3px solid lime;
   display: flex;
-  justify-content: space-around;
   align-items: center;
-  width: 170px;
+  width: 85%;
   color: MediumAquamarine;
 }
+.logo1{
+  display: flex;
+  border: 3px solid orange;
+  margin-left: 20px;
+}
+.logotext{
+  display: flex;
+  border: 3px solid lightblue;
+  margin-left: 5px;
+}
+
+/* HEADER MENU */
+
 .header-right{
+  border: 3px solid lightblue;
   display: flex; /*this allows for me to be able to  use flex box basically*/
   justify-content: flex-end; /*this line pushed the menu to the right */
   align-items: center; /*this centered the item in the colomn (vertically) of  the container*/
   justify-content:space-around;/*this is putting space around the menu*/
-  width: 250px; /* this is impotant as it gives the element for the menu in this case the width with in the container */
+  width: 25%; /* this is impotant as it gives the element for the menu in this case the width with in the container */
 }
+
+/*MAIN CONTENT*/
+
+.main-content{
+  border: 10px solid cyan;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  width: auto;
+}
+
+
+/* BIG COLUMN */
+
 .columnbig {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
   border: 7px solid pink;
+  width: 630px;
 }
 .group1{
   border: 5px solid cyan;
 }
 .mother{
   border: 3px solid lightblue;
+  background-image:image('resources\story-main.png');
 }
 .p1{
   border: 3px solid blue;
@@ -49,4 +87,39 @@
 }
 .research{
   border: 3px solid yellow;
+}
+
+/* MIDDLE COLUMN */
+
+.middlecolumn{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border: 7px solid DarkRed;
+  width: 300px;
+}
+.p4{
+  border: 3px solid yellow;
+}
+.cats{
+  border: 3px solid blue;
+}
+.p5{
+  border: 3px solid GreenYellow;
+}
+
+/* LAST COLUMN */
+
+.lastcolumn{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 240px;
+  border: 7px solid grey;
+}
+.cookie{
+  border: 3px solid firebrick;
+}
+.p6{
+  border: 3px solid gold;
 }
