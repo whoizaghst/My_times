@@ -68,7 +68,8 @@
 }
 .mother{
   border: 3px solid lightblue;
-  background-image:image('resources\story-main.png');
+  background-image: url('../resources/story-main.png');
+  color: white;
 }
 .p1{
   border: 3px solid blue;
