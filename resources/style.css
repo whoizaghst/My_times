@@ -2,6 +2,7 @@
 /* HEADER */
 
 .header{
+ 
  font-family: Verdana;
  font-size: 14px;
  font-weight: bold;
@@ -48,9 +49,10 @@
 .main-content{
   border: 10px solid cyan;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-content: center;
   width: auto;
+  height: auto;
 }
 
 
@@ -58,36 +60,87 @@
 
 .columnbig {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   flex-direction: column;
   border: 7px solid pink;
+  height: auto;
   width: 630px;
 }
-.group1{
-  border: 5px solid cyan;
-}
 .mother{
-  border: 3px solid lightblue;
+  display: flex;
   background-image: url('../resources/story-main.png');
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
   color: white;
+  width: 629px;
+  height: 300px;
+}
+
+.group2{
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 315px;
+  order: 1;
+}
+.test1{
+  display: flex;
+  height: auto;
 }
 .p1{
-  border: 3px solid blue;
-}
-.group2{
-  border: 5px solid DarkViolet;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+  width: auto;
 }
 .p2{
-  border: 3px solid red;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+  width: auto;
 }
 .earth{
-  border: 3px solid green;
+  display: flex;
+  background-image: url('../resources/fall_season.png');
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  flex-wrap: wrap;
+  height: 300px;
+  width: 299px;
+}
+.group3{
+  width: 315px;
+  order: 2;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 .p3{
-  border: 3px solid orange;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+  width: auto;
 }
 .research{
-  border: 3px solid yellow;
+  display: flex;
+  background-image: url('../resources/Hipster_cameraman.png');
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  height: 300px;
+  width: 299px;
 }
 
 /* MIDDLE COLUMN */
@@ -100,12 +153,25 @@
   width: 300px;
 }
 .p4{
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
   border: 3px solid yellow;
 }
 .cats{
+  background-image: url('../resources/cat_ceo.png');
   border: 3px solid blue;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  width: 299px;
+  height: 300px;
+  color: white;
 }
 .p5{
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
   border: 3px solid GreenYellow;
 }
 
@@ -122,5 +188,8 @@
   border: 3px solid firebrick;
 }
 .p6{
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
   border: 3px solid gold;
 }
