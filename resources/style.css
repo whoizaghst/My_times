@@ -1,8 +1,10 @@
-
+*{
+  margin: 0;
+  padding: 0;
+}
 /* HEADER */
 
 .header{
- 
  font-family: Verdana;
  font-size: 14px;
  font-weight: bold;
@@ -13,7 +15,6 @@
  display: flex;
  width: 100%;
 }
-
 /* LOGO */
 .logo{
   border: 3px solid lime;
@@ -32,7 +33,6 @@
   border: 3px solid lightblue;
   margin-left: 5px;
 }
-
 /* HEADER MENU */
 
 .header-right{
@@ -43,19 +43,16 @@
   justify-content:space-around;/*this is putting space around the menu*/
   width: 25%; /* this is impotant as it gives the element for the menu in this case the width with in the container */
 }
-
 /*MAIN CONTENT*/
 
 .main-content{
   border: 10px solid cyan;
   display: flex;
   justify-content: center;
-  align-content: center;
-  width: auto;
-  height: auto;
+  width: 100%;
+  height: 100%;
+  flex-wrap: wrap;
 }
-
-
 /* BIG COLUMN */
 
 .columnbig {
@@ -124,14 +121,7 @@
   flex-direction: column;
   align-items: flex-end;
 }
-.p3{
-  display: flex;
-  flex-wrap: wrap;
-  font-family: Georgia;
-  font-size: 17px;
-  color: black;
-  width: auto;
-}
+
 .research{
   display: flex;
   background-image: url('../resources/Hipster_cameraman.png');
@@ -152,12 +142,7 @@
   border: 7px solid DarkRed;
   width: 300px;
 }
-.p4{
-  font-family: Georgia;
-  font-size: 17px;
-  color: black;
-  border: 3px solid yellow;
-}
+
 .cats{
   background-image: url('../resources/cat_ceo.png');
   border: 3px solid blue;
@@ -168,28 +153,65 @@
   height: 300px;
   color: white;
 }
-.p5{
-  font-family: Georgia;
-  font-size: 17px;
-  color: black;
-  border: 3px solid GreenYellow;
-}
-
 /* LAST COLUMN */
 
 .lastcolumn{
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
-  width: 240px;
   border: 7px solid grey;
+  flex-wrap: wrap;
+  width: 240px;
+}
+.news{
+  font-size: 16px;
+  font-weight: bold;
+  border: 3px solid cyan;
+  display: flex;
+  justify-content: center;
+  width: 240px;
+}
+li{
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  list-style: none;
+  border-bottom: 1px solid black;
+  padding: 15px;
+  width: 210px;
+  flex-wrap: wrap;
+}
+div{
+  display: block;
 }
 .cookie{
-  border: 3px solid firebrick;
+  width: 240px;
+  height: 240px;
 }
-.p6{
+.footer{
+  display: flex;
+  flex-direction: row;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-width: 1270px;
+  height: 300px;
+}
+.logotextend{
+  display: flex;
   font-family: Georgia;
-  font-size: 17px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+a{
   color: black;
-  border: 3px solid gold;
+}
+.endmenu{
+  display: flex;
+  align-content: flex-end;
 }
