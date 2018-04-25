@@ -202,16 +202,23 @@ div{
   height: 300px;
 }
 .logotextend{
+  border: 3px solid lime;
   display: flex;
-  font-family: Georgia;
-  font-size: 16px;
-  font-weight: bold;
+  align-items: center;
   color: white;
+}
+.line1{
+  border: 3px solid pink;
+  width: 100%;
 }
 a{
   color: black;
 }
 .endmenu{
+  border: 3px solid cyan;
   display: flex;
-  align-content: flex-end;
+
+}
+.trademark{
+  border: 3px solid orange;
 }
