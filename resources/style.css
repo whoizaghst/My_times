@@ -215,20 +215,23 @@ li{
    font-size: 16px;
    font-weight: bold;
    color: white;
+   width: 100px;
+   justify-content: space-between;
+
 }
 .line1{
   display: flex;
   justify-content: space-between;
   align-content: space-around;
   margin: 10px;
-  width: 16%;
+  width: 300px;
 }
 a{
   color: black;
 }
 .endmenu{
   display: flex;
-  width: 68%;
+  width: 200px;
   justify-content: space-between;
   align-content: flex-end;
 }
